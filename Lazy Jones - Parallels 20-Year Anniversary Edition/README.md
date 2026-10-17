@@ -8,7 +8,7 @@
 
 ---
 
-<p align="center">
+<p align="left">
   <img src="C64-image-1.png" alt="Lazy Jones C64 showcase" width="521" />
 </p>
 
