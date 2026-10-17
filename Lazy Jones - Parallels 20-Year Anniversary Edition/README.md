@@ -178,7 +178,7 @@ Typical flow:
 
 ### Sound
 
-- Uses original-style C64 SID game audio for an authentic retro experience
+- Uses music from the original *Lazy Jones*, composed by **David Whittaker**, for an authentic retro experience. The music is not my own work; see the attribution and licensing notes below.
 
 ### Soundtrack history
 
@@ -228,16 +228,18 @@ generation of listeners.
 This is a fan tribute / anniversary demo project.
 
 - The source/game implementation in this repository is original project code.
-- If any third-party assets are included (for example optional SID/music files), rights remain with their respective owners.
-- For public redistribution, verify that included media is licensed for your intended use.
+- **Music credit:** the original *Lazy Jones* music was composed by **David Whittaker**. I did not compose this music and do not claim ownership of it.
+- The included [music/Lazy_Jones.sid](music/Lazy_Jones.sid) and the music embedded in the compiled PRG are third-party material. All rights to that music remain with the respective rights holders.
+- **The music is not covered by this project's MIT License.** Its inclusion does not grant permission to copy, modify, or redistribute it.
+- Attribution and a fan-project disclaimer do not replace permission or a suitable license. Before publicly distributing the SID or a PRG containing it, verify the redistribution rights or obtain permission from the relevant rights holders. If permission cannot be established, remove or replace the music and rebuild the PRG before publishing it.
 
 ---
 
 ## 🕹️ License
 
-This project is licensed under the **MIT License**.
+The original project code is licensed under the **MIT License**. Third-party music and other third-party material are excluded; their rights remain with their respective owners.
 
-You can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the software, subject to the MIT terms.
+You can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the original project code, subject to the MIT terms. These permissions do not extend to the third-party music.
 
 If you publish this on GitHub, add a [`LICENSE`](LICENSE) file with the MIT text at repository root.
 
