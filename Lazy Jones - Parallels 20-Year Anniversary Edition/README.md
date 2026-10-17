@@ -74,7 +74,7 @@ That early C64 experience is a big reason this anniversary tribute exists.
 
 ## 🕹️ Repository contents
 
-The main files in this repository are:
+The project includes the following core files:
 
 - [`main.asm`](main.asm) — complete 6502 source (game logic + rendering + assets)
 - [`run.ps1`](run.ps1) — convenience launcher (auto-build if needed, then runs in VICE)
