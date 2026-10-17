@@ -1,6 +1,6 @@
 # Lazy Jones: Parallels 20-Year Anniversary Edition (C64)
 
-<p align="center">
+<p align="left">
   <b>A fun retro tribute project built in 6502 assembly for Commodore 64.</b><br/>
   Created to celebrate <b>20 years of Parallels</b> and first showcased at the<br/>
   <b>Parallels VIPP Summit in Malta (Oct 2026)</b>.
