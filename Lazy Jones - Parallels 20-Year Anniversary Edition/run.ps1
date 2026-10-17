@@ -1,4 +1,4 @@
-# run.ps1 - build (if needed) and launch lazyjones.prg in VICE
+# run.ps1 - build (if needed) and launch the anniversary PRG in VICE
 # Usage:
 #   .\run.ps1                 # build-if-needed + fullscreen (default)
 #   .\run.ps1 -Windowed       # force windowed mode
@@ -30,7 +30,7 @@ if (-not $viceCmd) {
 }
 
 # Build the .prg if it's missing or older than the source.
-$prg = Join-Path $PSScriptRoot "lazyjones.prg"
+$prg = Join-Path $PSScriptRoot "Parallels RAS - Lazy Jones - 20 year edition.prg"
 $asm = Join-Path $PSScriptRoot "main.asm"
 $needBuild = $false
 if (-not $SkipBuild) {

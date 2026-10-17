@@ -1,6 +1,6 @@
 # setup-vice.ps1
 # Downloads the VICE Commodore 64 emulator (Windows build) into
-# c64\tools\vice so you can test lazyjones.prg without a system install.
+# c64\tools\vice so you can test the anniversary PRG without a system install.
 #
 # VICE is hosted on GitHub releases (reachable here), so this should
 # download automatically.

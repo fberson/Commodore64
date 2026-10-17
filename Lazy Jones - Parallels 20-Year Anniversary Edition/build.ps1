@@ -25,15 +25,18 @@ if (-not $acmeCmd) {
 }
 
 Write-Host "Using ACME: $acmeCmd" -ForegroundColor DarkCyan
-Write-Host "Assembling main.asm -> lazyjones.prg ..." -ForegroundColor Cyan
-& $acmeCmd -f cbm -o lazyjones.prg main.asm
+$prg = Join-Path $PSScriptRoot "Parallels RAS - Lazy Jones - 20 year edition.prg"
+Write-Host "Assembling main.asm -> $prg ..." -ForegroundColor Cyan
+& $acmeCmd -f cbm -o $prg main.asm
+$assemblerExitCode = $LASTEXITCODE
 
-if (Test-Path lazyjones.prg) {
-    Write-Host "Build OK: $(Resolve-Path lazyjones.prg)" -ForegroundColor Green
-    Write-Host "Run in VICE:  x64sc lazyjones.prg" -ForegroundColor Green
-    Write-Host "Or copy lazyjones.prg to the Ultimate 64 USB/SD and load it." -ForegroundColor Green
+if ($assemblerExitCode -eq 0 -and (Test-Path -LiteralPath $prg)) {
+    Write-Host "Build OK: $prg" -ForegroundColor Green
+    Write-Host "Run in VICE:  x64sc `"$prg`"" -ForegroundColor Green
+    Write-Host "Or copy the PRG to the Ultimate 64 USB/SD and load it." -ForegroundColor Green
 } else {
-    Write-Host "Build failed - no .prg produced." -ForegroundColor Red
+    Pop-Location
+    throw "Build failed (ACME exit code: $assemblerExitCode)."
 }
 
 Pop-Location

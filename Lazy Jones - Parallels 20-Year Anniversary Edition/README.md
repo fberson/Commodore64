@@ -78,7 +78,7 @@ If you only want to share the essential fun-project files on GitHub, these are t
 
 - [`main.asm`](main.asm) — complete 6502 source (game logic + rendering + assets)
 - [`run.ps1`](run.ps1) — convenience launcher (auto-build if needed, then runs in VICE)
-- [`Parallels RAS - Lazy Jones - 20 year edition.prg`](Parallels%20RAS%20-%20Lazy%20Jones%20-%2020%20year%20edition.prg) (or [`lazyjones.prg`](lazyjones.prg)) — runnable C64 binary
+- [Parallels RAS - Lazy Jones - 20 year edition.prg](Parallels%20RAS%20-%20Lazy%20Jones%20-%2020%20year%20edition.prg) — runnable C64 binary; also the filename used by the build and launch scripts
 
 Additional helper scripts and setup tooling are included for convenience.
 
