@@ -1,4 +1,4 @@
-# Parallels RAS C64 Admin Console (v1.29)
+# Parallels RAS C64 Admin Console
 
 ![Retro Gateway on C64](C64-RAS-1.png)
 
