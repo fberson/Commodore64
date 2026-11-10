@@ -24,13 +24,23 @@ Expect a mix of BASIC, 6502 assembly, retro gaming, and probably some ideas that
 
 🕹️ Projects
 
-Lazy Jones – Parallels 20-Year Anniversary Edition
+**Controlling the State of the C64 with Bicep**
 
-My first project takes me right back to one of the games I loved playing as a kid: Lazy Jones.
+What if you could manage a Commodore 64 the same way you manage Azure resources? This project uses the experimental Bicep local deploy feature and a custom Bicep extension written in .NET to declare the desired state of a real C64 Ultimate: screen colors, text, SID music, and even a full 80's-style crack intro written in 6502 machine code. Deployed over the REST API, fully idempotent. Desired State Configuration on 1982 hardware!
 
-Recreated as a personal tribute to celebrate 20 years of Parallels, this C64-native project was first showcased at the Parallels VIPP Summit in Malta in October 2026.
+👉 [Project details and source code](https://github.com/fberson/Commodore64/blob/main/Controlling%20the%20state%20of%20the%20C64%20with%20Bicep/README.md) | 🎬 [Watch the video](https://youtu.be/9qvYHw6erJg)
 
-Built using 6502 assembly, it combines classic C64 gameplay with a modern anniversary twist.
+**Lazy Jones – Parallels 20-Year Anniversary Edition**
+
+This project takes me right back to one of the games I loved playing as a kid: Lazy Jones. Recreated as a personal tribute to celebrate 20 years of Parallels, this C64-native project was first showcased at the Parallels VIPP Summit in Malta in October 2026. Built using 6502 assembly, it combines classic C64 gameplay with a modern anniversary twist.
+
+👉 [Project details and source code](https://github.com/fberson/Commodore64/blob/main/Lazy%20Jones%20-%20Parallels%2020-Year%20Anniversary%20Edition/README.md)
+
+**Parallels RAS C64 Admin Console**
+
+Administering a modern Parallels RAS environment from a Commodore 64. Old school meets new school in the most literal way: an 8-bit machine from 1982 acting as an admin console for present-day virtualization infrastructure.
+
+👉 [Project details and source code](https://github.com/fberson/Commodore64/blob/main/Parallels%20RAS%20C64%20Admin%20Console/README.md)
 
 More projects to follow!
 
